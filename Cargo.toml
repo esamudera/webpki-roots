@@ -10,4 +10,5 @@ homepage = "https://github.com/rustls/webpki-roots"
 repository = "https://github.com/rustls/webpki-roots"
 
 [dependencies]
-webpki = "0.22.0"
+# webpki = "0.22.0"
+webpki = { git = "https://github.com/esamudera/webpki.git", branch = "disable_eaed_hash_check" }
